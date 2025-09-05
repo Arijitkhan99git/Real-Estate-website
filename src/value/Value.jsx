@@ -60,7 +60,7 @@ function Value() {
                                         <AccordionItemButton className='flex w-full justify-between p-4 items-center cursor-pointer'>
                                             
                                                 <div className='text-xl p-2 bg-blue-100 rounded-md text-blue-600'>{item.icon}</div>
-                                                <span>{item.heading}</span>
+                                                <span className='text-lg text-primary poppins-bold'>{item.heading}</span>
                                                 <div>
                                                     <MdOutlineArrowDropDown size={35}   className='bg-blue-100 rounded-md p-1 text-blue-600  hover:bg-blue-200 transition-colors'/>
                                                 </div>
