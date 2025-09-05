@@ -1,8 +1,9 @@
 import React from 'react'
-import {Menu} from 'lucide-react'
+import {Menu, TurkishLira} from 'lucide-react'
 import { X } from 'lucide-react';
 import { logo } from '../../assets/index'
 import { useState, useEffect } from 'react';
+import { div } from 'framer-motion/client';
 
 
 
@@ -17,11 +18,33 @@ function Header() {
        setIsMenuOpen(!isMenuOpen)
         
     }
+
+  const [headerColor, setHeaderColor] = useState(false);
+
+  
+  useEffect(()=>{
+    const handelScroll = ()=>{
+      if (window.scrollY >=9) {
+        setHeaderColor(true)
+      }
+      else{
+        setHeaderColor(false)
+      }
+    }
+
+    window.addEventListener('scroll', handelScroll);
+
+    return ()=>(
+      window.removeEventListener('scroll', handelScroll)
+    )
+  },[])
+
   return (
-    <section className='relative z-2 text-secondary flex justify-center '>
+   
+    <section className={`fixed top-0 left-0 w-full z-50   text-secondary flex  justify-center ${headerColor? 'bg-gradient-to-b from-gray-700 to-gray-500': ''}`}>
       {/* large Screen */}
         <div className='hidden md:flex justify-between items-center flex-wrap w-full max-w-7xl
-            gap-[2rem] py-[1rem] px-[2rem]'>
+            gap-[2rem] py-3 px-[2rem]'>
             <img src={logo} width={100} alt="logo"/>
 
             <div className="flex justify-center items-center flex-wrap gap-[2rem]">
@@ -70,6 +93,7 @@ function Header() {
             </div>
         </div>
     </section>
+   
   )
 }
 
