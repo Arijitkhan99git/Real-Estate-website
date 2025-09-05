@@ -6,10 +6,10 @@ import { motion } from "framer-motion";
 
 function Hero() {
   return (
-    <section className='relative z-1  text-white flex justify-center items-center pt-22 md:pt-25 '>
-        <div className=' py-[2rem] px-[3rem] w-full max-w-7xl flex flex-wrap justify-center items-center lg:flex-row   lg:justify-around gap-[3rem] '>
+    <section className='relative z-1  text-white flex justify-center items-center pt-18 sm:pt-20 md:pt-25 '>
+        <div className=' py-[2rem] px-[3rem] w-full max-w-7xl flex flex-wrap justify-center items-center lg:flex-row  lg:justify-around gap-[2rem] md:gap-[3rem] '>
              {/* left side */}
-             <div className=' flex flex-col justify-center items-center lg:justify-end lg:items-start gap-[3rem] w-full lg:w-auto max-w-md lg:max-w-none  '>
+             <div className=' flex flex-col justify-center items-center lg:justify-end lg:items-start w-full lg:w-auto max-w-md lg:max-w-none  gap-[1.5rem] sm:gap-[2rem]  md:gap-[3rem]'>
            
                     <div className=' relative z-1  ' >
                         {/* rounded div */}
