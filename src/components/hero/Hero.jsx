@@ -9,7 +9,7 @@ function Hero() {
     <section className='relative z-1  text-white flex justify-center items-center pt-22 md:pt-25 '>
         <div className=' py-[2rem] px-[3rem] w-full max-w-7xl flex flex-wrap justify-center items-center lg:flex-row   lg:justify-around gap-[3rem] '>
              {/* left side */}
-             <div className=' flex flex-col justify-center items-center lg:justify-end lg:items-start gap-[3rem]  '>
+             <div className=' flex flex-col justify-center items-center lg:justify-end lg:items-start gap-[3rem] w-full lg:w-auto max-w-md lg:max-w-none  '>
            
                     <div className=' relative z-1  ' >
                         {/* rounded div */}
@@ -37,15 +37,22 @@ function Hero() {
                     <h6>Forget all difficulties in finding a residence for you</h6>
                 </div>
 
-                <div className='flex gap-1 md:gap-[2rem] items-center bg-white  border-4 
-                 border-gray-200 justify-between p-2 rounded-sm'>
-                    <HiLocationMarker  className='text-blue-600' size={25} />
-
-                    <input type="text" className='border-0 outline-0 text-gray-700 '/>
-                    <button className=" poppins-medium text-white bg-gradient-to-r from-blue-500 to-blue-700 px-2 py-1 rounded-sm">Search</button>
+                {/* input box */}
+                <div className='flex flex-col sm:flex-row gap-2 sm:gap-1 md:gap-[2rem] items-center bg-white border-4 
+                 border-gray-200 p-2 rounded-sm w-full max-w-md overflow-clip'>
+                    <HiLocationMarker className='hidden sm:flex text-blue-600 flex-shrink-0' size={25} />
+                    <input 
+                        type="text" 
+                        placeholder="Search location..." 
+                        className='border-0 outline-0 text-gray-700 flex-1 min-w-0 px-2 py-1 text-center'
+                    />
+                    <button className="poppins-medium text-white bg-gradient-to-r from-blue-500 to-blue-700 px-3 py-1 rounded-sm whitespace-nowrap">
+                        Search
+                    </button>
                 </div>
 
-                <div className='flex gap-2 md:gap-[2rem] items-center flex-wrap w-full justify-between text-2xl md:text-3xl'>
+
+                <div className=' w-full flex gap-[2rem] items-center flex-wrap  justify-center sm:justify-between text-2xl md:text-3xl'>
 
                     <div className='flex flex-col gap-1   flex-wrap'>
                         <span className='flex  items-center gap-1'>
