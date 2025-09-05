@@ -11,7 +11,7 @@ function Hero() {
              {/* left side */}
              <div className=' flex flex-col justify-center items-center lg:justify-end lg:items-start w-full lg:w-auto max-w-md lg:max-w-none  gap-[1.5rem] sm:gap-[2rem]  md:gap-[3rem]'>
            
-                    <div className=' relative z-1  ' >
+                    <div className=' relative z-1 ' >
                         {/* rounded div */}
                         <div  className='h-[4rem] w-[4rem] bg-gradient-to-r from-orange-400 to-orange-300
                             rounded-full absolute right-[28%] -z-1'/>  
@@ -33,7 +33,7 @@ function Hero() {
 
 
                  <div className="flex flex-wrap flex-col items-start text-gray-400 text-sm md:text-base">
-                    <h6>Find a variety of properties that suit you very easilty</h6>
+                    <h6>Find a variety of properties that suit you very easily</h6>
                     <h6>Forget all difficulties in finding a residence for you</h6>
                 </div>
 

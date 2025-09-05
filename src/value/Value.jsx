@@ -57,12 +57,12 @@ function Value() {
                             return(
                                 <AccordionItem key={i} uuid={i} className='overflow-hidden mb-5 border border-gray-200 rounded-sm '>
                                     <AccordionItemHeading>
-                                        <AccordionItemButton className='flex w-full justify-between p-2  md:p-4 items-center cursor-pointer'>
+                                        <AccordionItemButton className='flex w-full justify-between p-2  md:p-4 items-center cursor-pointer gap-4'>
                                             
-                                                <div className='text-xl p-2 bg-blue-100 rounded-md text-blue-600'>{item.icon}</div>
-                                                <span className='text-sm md:text-lg text-primary poppins-bold'>{item.heading}</span>
+                                                <div className='text-base sm:text-xl p-2 bg-blue-100 rounded-md text-blue-600'>{item.icon}</div>
+                                                <span className='text-sm md:text-lg text-primary poppins-semibold sm:poppins-bold'>{item.heading}</span>
                                                 <div>
-                                                    <MdOutlineArrowDropDown size={35}   className='bg-blue-100 rounded-md p-1 text-blue-600  hover:bg-blue-200 transition-colors'/>
+                                                    <MdOutlineArrowDropDown size={30}  sm:size={35}   className='bg-blue-100 rounded-md p-1 text-blue-600  hover:bg-blue-200 transition-colors'/>
                                                 </div>
                                            
                                             
