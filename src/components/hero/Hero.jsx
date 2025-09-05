@@ -6,10 +6,10 @@ import { motion } from "framer-motion";
 
 function Hero() {
   return (
-    <section className='relative z-1  p-[2rem] text-white flex justify-center items-center pt-22 md:pt-25'>
-        <div className='w-full max-w-7xl p-[1rem] flex flex-wrap flex-col lg:flex-row justify-around gap-[3rem] '>
-             {/* right side */}
-             <div className='flex flex-col justify-center items-center lg:justify-end lg:items-start gap-[3rem]  mx-auto lg:mx-0'>
+    <section className='relative z-1  text-white flex justify-center items-center pt-22 md:pt-25 '>
+        <div className=' py-[2rem] px-[3rem] w-full max-w-7xl flex flex-wrap justify-center items-center lg:flex-row   lg:justify-around gap-[3rem] '>
+             {/* left side */}
+             <div className=' flex flex-col justify-center items-center lg:justify-end lg:items-start gap-[3rem]  '>
            
                     <div className=' relative z-1  ' >
                         {/* rounded div */}
@@ -32,12 +32,12 @@ function Hero() {
                     </div>
 
 
-                 <div className="flex flex-col items-start text-gray-400 text-sm md:text-base">
-                    <span>Find a variety of properties that suit you very easilty</span>
-                    <span>Forget all difficulties in finding a residence for you</span>
+                 <div className="flex flex-wrap flex-col items-start text-gray-400 text-sm md:text-base">
+                    <h6>Find a variety of properties that suit you very easilty</h6>
+                    <h6>Forget all difficulties in finding a residence for you</h6>
                 </div>
 
-                <div className='max-w-md flex md:gap-[2rem] items-center overflow-x-auto bg-white w-full border-4 
+                <div className='flex gap-1 md:gap-[2rem] items-center bg-white  border-4 
                  border-gray-200 justify-between p-2 rounded-sm'>
                     <HiLocationMarker  className='text-blue-600' size={25} />
 
