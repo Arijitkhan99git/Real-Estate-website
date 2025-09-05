@@ -6,7 +6,7 @@ import {prologis,
 
 function Companies() {
   return (
-    <section className='flex justify-center items-center '>
+    <section className='flex justify-center items-center pt-10'>
         <div className='w-full max-w-7xl flex flex-wrap justify-between items-center 
         gap-[1rem] px-[2rem]'>
             <img src={prologis} alt="prologis"  className='w-[9rem]'/>

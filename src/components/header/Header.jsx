@@ -48,20 +48,20 @@ function Header() {
             <img src={logo} width={100} alt="logo"/>
 
             <div className="flex justify-center items-center flex-wrap gap-[2rem]">
-            <a href="">Residencies</a>
-            <a href="">Our Value</a>
-            <a href="">Contact Us</a>
-            <a href="">Get Started</a>
+            <a  href="#residencies">Residencies</a>
+            <a href="#value">Our Value</a>
+            <a href="#contact-us">Contact Us</a>
+            <a href="#get-started">Get Started</a>
             <button className="poppins-medium py-1 px-2 text-white bg-gradient-to-r from-blue-500 to-blue-700 
                 rounded-sm">
-                <a href="">Contact</a>
+                <a href="#footer">Contact</a>
             </button>
             </div>
         </div>
 
          {/* Mobile Screen */}
         <div className='flex md:hidden  justify-between  items-center w-full max-w-7xl
-            gap-[2rem] py-[1rem] px-[2rem]  '>
+            gap-[2rem] py-3 px-[2rem]  '>
           <div>
              <img src={logo} width={100} alt="logo"/>
           </div>
@@ -82,13 +82,13 @@ function Header() {
         <div className={` ${isMenuOpen ? 'absolute': 'hidden' } md:hidden top-[5rem] right-[2rem] z-10 bg-gray-100 text-gray-700 
           p-10 rounded-lg shadow-2xl`}>
           <div className="flex flex-col gap-4  poppins-regular text-lg">
-            <a href="">Residencies</a>
-            <a href="">Our Value</a>
-            <a href="">Contact Us</a>
-            <a href="">Get Started</a>
-            <button className="poppins-medium py-1 px-2 text-white bg-gradient-to-r from-blue-500 to-blue-700 
+            <a onClick={closeMenu} href="#residencies">Residencies</a>
+            <a onClick={closeMenu} href="#value">Our Value</a>
+            <a onClick={closeMenu} href="#contact-us">Contact Us</a>
+            <a onClick={closeMenu} href="#get-started">Get Started</a>
+            <button onClick={closeMenu} className="poppins-medium py-1 px-2 text-white bg-gradient-to-r from-blue-500 to-blue-700 
                 rounded-sm">
-                <a href="">Contact</a>
+                <a href="#footer">Contact</a>
             </button>
             </div>
         </div>

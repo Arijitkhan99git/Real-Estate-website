@@ -16,7 +16,7 @@ function App() {
 
   return (
     <>
-    <div className=' overflow-x-clip space-y-10'>
+    <div className=' overflow-x-clip '>
       <div className='bg-background relative '>
           <div className='absolute w-[18rem] h-[18rem] bg-gray-500 blur-[100px]'/>
           <Header></Header>

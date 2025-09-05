@@ -12,7 +12,7 @@ import {
 import "react-accessible-accordion/dist/fancy-example.css";
 import {
   MdOutlineArrowDropDown,
-  MdOutlineArrowDropDownCircle,
+
 } from "react-icons/md";
 
 import data from './accordion'
@@ -20,7 +20,7 @@ import data from './accordion'
 function Value() {
   return (
     <>
-    <section className='flex justify-center items-center'>
+    <section id='value' className='flex justify-center items-center pt-18 md:pt-20'>
         <div className='w-full max-w-7xl flex flex-col lg:flex-row justify-between gap-[3rem]  px-[2rem]'>
             
             {/* left side */}

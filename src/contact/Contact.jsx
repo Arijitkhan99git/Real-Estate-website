@@ -10,7 +10,7 @@ import data from './typeOfContact'
 function Contact() {
   return (
     <>
-    <section className='flex justify-center items-center py-5'>
+    <section id='contact-us' className='flex justify-center items-center py-5 pt-18 md:pt-20'>
         <div className='w-full max-w-7xl flex flex-col lg:flex-row justify-between gap-[3rem]  px-[2rem]'>
             
             {/* left side */}
@@ -26,7 +26,7 @@ function Contact() {
                 <div className='grid grid-cols-1 md:grid-cols-2 gap-6 w-full'>
                     {
                         data.map((item,i)=>(
-                            <div id='i' className='p-3 border border-gray-200 flex flex-col gap-4 rounded-lg w-full mx-auto
+                            <div key={i} className='p-3 border border-gray-200 flex flex-col gap-4 rounded-lg w-full mx-auto
                             transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-105 hover:shadow-lg'>
                                 {/* top */}
                                 <div className='flex gap-5 items-center'>

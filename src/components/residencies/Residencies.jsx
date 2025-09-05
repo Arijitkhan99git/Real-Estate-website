@@ -54,7 +54,7 @@ function Residencies() {
 ]
   
   return (
-    <section className='flex justify-center items-center w-full '>
+    <section id='residencies' className='flex justify-center items-center w-full pt-18 md:pt-20'>
     <div className='w-full max-w-7xl flex flex-col   px-[2rem]'>
       
         <div className='flex flex-col text-center items-center md:items-start gap-2 py-2 relative'>
