@@ -41,7 +41,7 @@ function Hero() {
                  border-gray-200 justify-between p-2 rounded-sm'>
                     <HiLocationMarker  className='text-blue-600' size={25} />
 
-                    <input type="text" className='border-0 outline-0 text-gray-700'/>
+                    <input type="text" className='border-0 outline-0 text-gray-700 '/>
                     <button className=" poppins-medium text-white bg-gradient-to-r from-blue-500 to-blue-700 px-2 py-1 rounded-sm">Search</button>
                 </div>
 
