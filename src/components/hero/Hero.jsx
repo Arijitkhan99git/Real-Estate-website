@@ -7,7 +7,7 @@ import { motion } from "framer-motion";
 function Hero() {
   return (
     <section className='relative z-1  p-[2rem] text-white flex justify-center items-center pt-22 md:pt-25'>
-        <div className='w-full max-w-md md:max-w-7xl p-[1rem] flex flex-col lg:flex-row justify-around gap-[3rem] '>
+        <div className='w-full max-w-7xl p-[1rem] flex flex-col lg:flex-row justify-around gap-[3rem] '>
              {/* right side */}
              <div className='flex flex-col justify-center items-center lg:justify-end lg:items-start gap-[3rem]  mx-auto lg:mx-0'>
            
@@ -37,7 +37,7 @@ function Hero() {
                     <span>Forget all difficulties in finding a residence for you</span>
                 </div>
 
-                <div className='max-w-md flex md:gap-[2rem] items-center flex-wrap bg-white w-full border-4 
+                <div className='max-w-md flex md:gap-[2rem] items-center overflow-x-auto bg-white w-full border-4 
                  border-gray-200 justify-between p-2 rounded-sm'>
                     <HiLocationMarker  className='text-blue-600' size={25} />
 
