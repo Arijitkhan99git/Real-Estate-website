@@ -4,8 +4,8 @@ import {logo2} from '../assets/index'
 function Footer() {
   return (
     <>
-        <section id='footer' className='flex justify-center items-center py-5'>
-            <div className='w-full max-w-7xl flex flex-wrap items-center justify-between px-[2rem] pb-5'>
+        <section id='footer' className='flex justify-center items-center py-5 pt-12 '>
+            <div className='w-full max-w-7xl flex flex-wrap items-center justify-between px-[2rem] pb-5'>            
                 <div className='flex flex-col gap-4'>
                      <img src={logo2} width={120} alt="logo"/>
                      <p className='text-gray-500 text-sm leading-relaxed'>Our vision is to make all people <br />
