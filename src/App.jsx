@@ -6,10 +6,10 @@ import Header from './components/header/Header'
 import Hero from './components/hero/Hero'
 import Companies from './components/companies/Companies'
 import Residencies from './components/residencies/Residencies'
-import Value from './value/Value'
-import Contact from './contact/Contact'
-import GetStarted from './getStarted/GetStarted'
-import Footer from './footer/Footer'
+import Value from './components/value/Value'
+import Contact from './components/contact/Contact'
+import GetStarted from './components/getStarted/GetStarted'
+import Footer from './components/footer/Footer'
 
 function App() {
   const [count, setCount] = useState(0)

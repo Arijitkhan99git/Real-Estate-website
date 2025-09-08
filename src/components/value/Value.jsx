@@ -1,5 +1,5 @@
 import React from 'react'
-import {value} from '../assets/index'
+import {value} from '../../assets/index'
 import {
   Accordion,
   AccordionItem,

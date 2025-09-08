@@ -1,10 +1,5 @@
 import React from 'react'
-import {contact} from '../assets/index'
-import { Phone } from 'lucide-react';
-import { MessageCircleMore } from 'lucide-react';
-import { Video } from 'lucide-react';
-import { MessageSquare } from 'lucide-react';
-
+import {contact} from '../../assets/index'
 import data from './typeOfContact'
 
 function Contact() {
