@@ -61,7 +61,7 @@ function Residencies() {
             <h4 className='text-amber-500 poppins-bold text-2xl'>Best Choices</h4>
             <h2 className='text-primary poppins-bold text-4xl'>Popular Residencies</h2>
         </div>
-        <div className='flex justify-end'>
+        <div className='flex justify-end mt-4 md:mt-2'>
             <SlideNextButton swiperRef={swiperRef} />
         </div>
         
@@ -121,10 +121,10 @@ export default Residencies
 const SlideNextButton = ({ swiperRef }) => {
   return (
     <div className=" flex gap-4 ">
-      <button onClick={() => swiperRef.current?.slidePrev()} className='text-2xl text-blue-800 bg-gray-100 border border-gray-200 rounded-lg px-2'>
+      <button onClick={() => swiperRef.current?.slidePrev()} className='text-2xl text-blue-500 bg-gray-100 border border-gray-200  rounded-lg px-2'>
         &lt;
       </button>
-      <button onClick={() => swiperRef.current?.slideNext()} className='text-2xl text-blue-800 bg-white/60 border border-gray-200 shadow-lg rounded-lg px-2'>
+      <button onClick={() => swiperRef.current?.slideNext()} className='text-2xl text-blue-500 bg-white/60 border border-gray-200 shadow-md rounded-lg px-2'>
         &gt;
       </button>
     </div>

@@ -10,7 +10,7 @@ function GetStarted() {
                         <p className='text-gray-300'>Subscribe and find super attractive price quotes from us. <br />
                             Find your residence soon</p>
                         <div>
-                            <button className='bg-[#5A73D7] text-gray-200 px-4 py-2 rounded-lg border-2 border-white'>Get Started</button>
+                            <button className='bg-[#5A73D7] text-white px-4 py-2 rounded-lg border-2 border-white'>Get Started</button>
                         </div>
                     </div>
                    

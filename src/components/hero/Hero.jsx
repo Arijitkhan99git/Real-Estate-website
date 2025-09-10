@@ -9,7 +9,8 @@ function Hero() {
     <section className='relative z-1  text-white flex justify-center items-center pt-18 sm:pt-20 md:pt-25 '>
         <div className=' py-[2rem] px-[3rem] w-full max-w-7xl flex flex-wrap justify-center items-center lg:flex-row  lg:justify-around gap-[2rem] md:gap-[3rem] '>
              {/* left side */}
-             <div className=' flex flex-col justify-center items-center lg:justify-end lg:items-start w-full lg:w-auto max-w-md lg:max-w-none  gap-[1.5rem] sm:gap-[2rem]  md:gap-[3rem]'>
+             <div className=' flex flex-col justify-center items-center lg:justify-end lg:items-start w-full 
+             lg:w-auto max-w-md lg:max-w-none  gap-[2rem]  md:gap-[3rem]'>
            
                     <div className=' relative z-1 ' >
                         {/* rounded div */}
@@ -38,13 +39,13 @@ function Hero() {
                 </div>
 
                 {/* input box */}
-                <div className='flex flex-col sm:flex-row gap-2 sm:gap-1 md:gap-[2rem] items-center bg-white border-4 
-                 border-gray-200 p-2 rounded-sm w-full max-w-md overflow-clip'>
-                    <HiLocationMarker className='hidden sm:flex text-blue-600 flex-shrink-0' size={25} />
+                <div className='flex flex-row gap-1  items-center border-2
+                 border-gray-100 p-2 rounded-lg w-full max-w-sm sm:max-w-md overflow-clip bg-gray-200'>
+                    <HiLocationMarker className='hidden sm:flex text-blue-600 ' size={25} />
                     <input 
                         type="text" 
                         placeholder="Search location..." 
-                        className='border-0 outline-0 text-gray-700 flex-1 min-w-0 px-2 py-1 text-center'
+                        className='border-0 outline-0 text-gray-700 flex-1 min-w-0 text-center'
                     />
                     <button className="poppins-medium text-white bg-gradient-to-r from-blue-500 to-blue-700 px-3 py-1 rounded-sm whitespace-nowrap">
                         Search
